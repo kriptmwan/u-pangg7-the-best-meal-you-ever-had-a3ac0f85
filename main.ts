@@ -1,5 +1,7 @@
 // The Best Meal You Ever Had — one sentence, at most 200 characters.
-// Writes the entry to /output/entry.txt, with a fail-fast guard on the gate.
+// Gate: /output/entry.txt must be UTF-8 text of 1-200 characters.
+// The sentence below is the entry: a 2 a.m. tekwan in Palembang, fogged
+// glasses, lime-sharp broth, and the measure every soup since is held to.
 import * as fs from "node:fs";
 
 const SENTENCE =
